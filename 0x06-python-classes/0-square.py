@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Defines a square """
+""" This module defines a square class which is empty """
 
 class Square:
-    """Does nothing"""
+    """ Does nothing """
     pass
