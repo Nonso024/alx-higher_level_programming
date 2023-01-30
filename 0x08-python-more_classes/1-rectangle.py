@@ -3,17 +3,17 @@
 
 class Rectangle:
     """ A class that reprents a rectangle with prpeties """
-    def __init__(self, width = 0, height = 0)
-    """ Initializing this class with
-    Args:
-        width: width of rectangle
-        height: height of rectangle
-    Raises:
-        TypeError: if size is not integer
-        ValueError: if size is less than zero
-    """
-    self.width =  width
-    self.height = height
+    def __init__(self, width = 0, height = 0):
+        """ Initializing this rectangle class
+        Args:
+            width: width of rectangle
+            height: height of rectangle
+        Raises:
+            TypeError: if size is not integer
+            ValueError: if size is less than zero
+        """
+        self.width =  width
+        self.height = height
 
     @property
     def width(self):
