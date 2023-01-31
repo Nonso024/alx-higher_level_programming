@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""
-    This module containes a locked class that prevents the user
-    from dynamilcally creating new instance attributes except if
-    the attribute is first name
-"""
+"""This defines a locked class"""
+
 
 class LockedClass:
-    """ A locked class """
+    """
+    Only allows instatiation of an attribute called first_name
+    """
 
     __slots__ = ["first_name"]
