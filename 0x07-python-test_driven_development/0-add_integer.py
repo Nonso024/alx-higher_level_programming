@@ -2,7 +2,7 @@
 """
     This module contains a function add_integer(a,b)
     that adds two integers or floats and returns the sum
-    a and b must be integers or floats else a 
+    a and b must be integers or floats else a
     TypeError is raised
     If a or b is a float, it is first casted to an int so
     the function always returns an integer as the result
