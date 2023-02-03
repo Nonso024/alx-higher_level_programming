@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """
-    This module contains a function print_square
+    This module contains a function print_square(size)
     that prints a square with characters # based on size
-    if size is not an integer or size is less than 0
-    raise a ValueError
+    if size is not an integer or size is less than 0, a
+    TypeError is raised
 """
 
 
