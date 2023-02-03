@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-    This module contains a function add_integer(a,b)
-    that adds two integers or floats and returns the sum
-    a and b must be integers or floats else a
-    TypeError is raised
+    This module contains a function add_integer(a, b)
+    that adds two integers or floats and return the result,
+    a and b must be integers or floats otherwise a
+    TypeError is raised.
     If a or b is a float, it is first casted to an int so
-    the function always returns an integer as the result
+    the funtion always returns an integer as the result
 """
 
 
 def add_integer(a, b=98):
-    """ Adds 2 integers and retrns result """
+    """ Adds two integers and returns the result """
 
     if type(a) is not int and type(a) is not float:
         raise TypeError("a must be an integer")
@@ -20,6 +20,6 @@ def add_integer(a, b=98):
     if type(a) == float:
         a = int(a)
     if type(b) == float:
-        b =  int(b)
+        b = int(b)
 
     return a + b
