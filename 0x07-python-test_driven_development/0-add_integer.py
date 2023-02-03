@@ -7,7 +7,9 @@
     If a or b is a float, it is first casted to an int so
     the function always returns an integer as the result
 """
-def add_integer(a, b = 98):
+
+
+def add_integer(a, b=98):
     """ Adds 2 integers and retrns result """
 
     if type(a) is not int and type(a) is not float:

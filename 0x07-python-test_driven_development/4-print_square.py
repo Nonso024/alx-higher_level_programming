@@ -6,6 +6,7 @@
     raise a ValueError
 """
 
+
 def print_square(size):
     """ Prints a square with # character """
 
