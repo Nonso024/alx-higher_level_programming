@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-    This module conatains a class BaseGeometry and a public instance method area()
-    that raises an exception
+    This module conatains a class BaseGeometry and a public instance method
+    area() that raises an exception
 """
 
 
