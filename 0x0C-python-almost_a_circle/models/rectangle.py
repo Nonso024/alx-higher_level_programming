@@ -97,7 +97,7 @@ class Rectangle(Base):
         return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
 
     def update(self, *args, **kwargs):
-        """ updates the attribute of the rectangle """
+         """ updates the attribute of the rectangle """
 
         attr = ["id", "width", "height", "x", "y"]
 
