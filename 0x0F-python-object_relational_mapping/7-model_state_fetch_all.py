@@ -9,11 +9,15 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 if __name__ == "__main__":
+    """
+    Access to the database and get the states
+    from the database.
+    """
 
-    db_url = "msql+mysqldb://{}:{}@localhost:3306/{}".format(
+    db_url = "mysql+mysqldb://{}:{}@localhost:3306/{}".format(
         argv[1], argv[2], argv[3])
 
-    engine = creat_engine(db_url)
+    engine = create_engine(db_url)
     Session = sessionmaker(bind=engine)
 
     session = Session()
