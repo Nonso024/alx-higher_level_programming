@@ -10,7 +10,7 @@ from sys import argv
 if __name__ == '__main__':
     """
     Access the databse and get the cities
-    for the database.
+    from the database.
     """
 
     db_connect = db.connect(host="localhost", port=3306,
