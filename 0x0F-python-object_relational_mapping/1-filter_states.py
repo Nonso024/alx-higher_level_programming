@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-A script that lists all states with
-a `name` starting with letter `N`
-from the database
+This script lists all states with
+a `name` starting with the letter `N`
+from the database `hbtn_0e_0_usa`.
 """
 
 import MySQLdb as db
 from sys import argv
 
 """
-Grants access to the database and gets the states
-from database.
+Access to the database and get the states
+from the database.
 """
 
 if __name__== '__main__':
@@ -20,7 +20,7 @@ if __name__== '__main__':
 
     db_cursor.execute(
             "SELECT * FROM states WHERE name LIKE BINARY 'N%' \
-                                    ORDER BY states.id ASC")
+                    ORDER BY states.id ASC")
 
     rows_selected = db_cursor.fetchall()
 
